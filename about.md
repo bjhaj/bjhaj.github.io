@@ -23,8 +23,6 @@ title: About - Baaz Jhaj
 <p>Some watch for fires where no one else is looking. Some let us shape the beliefs we teach our machines instead of leaving them hidden. Some carry voices across languages without losing who we are. All are built to help people understand, decide, and act with clarity.</p>
 
 <p>I work at the intersection of machine learning, edge AI, and human-centered design. My focus is on building systems that work where they’re needed most—off-grid camera networks that detect wildfires, speech translation tools that preserve identity across languages, and alignment pipelines that make model biases visible and deliberate.</p>
-
-<p>When I’m not working, I’m training for a sub-5-minute mile, studying Japanese denim construction, or experimenting with model architectures—different crafts, same rule: nothing extra, nothing fake, only what earns its place.</p>
       
       <div class="contact-links">
         <a href="/projects" class="btn">View My Work</a>
