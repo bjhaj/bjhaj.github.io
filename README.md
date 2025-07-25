@@ -1,51 +1,84 @@
-## Developer Portfolio Landing Page Template
+# Baaz Jhaj - Personal Website
 
-### Introduction
+A professional portfolio website showcasing my work in machine learning, edge AI, and autonomous systems.
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+## About Me
 
-<img src="images/demo.gif?raw=true"/>
+I'm a Computer Science student at Arizona State University's Ira A. Fulton Schools of Engineering and Barrett the Honors College, graduating in 2025. I specialize in machine learning, edge AI, and autonomous systems, with a passion for translating academic research into practical applications.
 
-### Installation
+Currently working as a Research Assistant on the DARPA TIAMAT project, developing neurosymbolic representation-based reinforcement learning for autonomous robot navigation.
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+## Featured Projects
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+### [SmokeNet](/smokenet) - Wildfire Detection System
+A comprehensive wildfire detection system optimized for remote, no-service areas. Achieved over 6% higher accuracy than recent benchmarks while using a smaller, resource-efficient model. Features LoRa-based communication architecture and modular deployment library.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Technologies:** PyTorch, LoRa, Edge AI, Hardware Acceleration, Model Optimization
 
-### Markdown
+### [Translatica](/translatica) - Speech-to-Speech Translation
+2nd place winner at AI in Education Hackathon ($5,000 award). A modular speech-to-speech translation pipeline that preserves speaker identity, tone, and emotional prosody across 20+ languages. Features microservice architecture with real-time deployment capabilities.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Technologies:** React, Vercel, NextJS, SupaBase, AWS Lambda, Python, PyTorch
 
-```markdown
-Syntax highlighted code block
+### [SelfAlign](/selfalign) - Customizable LLM Alignment
+A fully customizable alignment pipeline for large language models, giving users control over model persona and ideological alignment. Implements synthetic supervised fine-tuning and self-RLHF pipelines with visual interface for tracking alignment drift.
 
-# Header 1
-## Header 2
-### Header 3
+**Technologies:** LoRA/QLoRA, RLHF, Synthetic SFT
 
-- Bulleted
-- List
+## Experience
 
-1. Numbered
-2. List
+- **Research Assistant - DARPA TIAMAT** (August 2024 - Present)
+  - Contributing to TANR2L: Transfer of Autonomy using Neuro-symbolic Representation-based Reinforcement Learning
+  - Developing neurosymbolic representation-based reinforcement learning for autonomous robot navigation
 
-**Bold** and _Italic_ and `Code` text
+- **Software Engineering Intern - REACH** (June 2024 - August 2024)
+  - Developed tools for historical seasonal data analysis
+  - Built OCR system for handwritten document processing
 
-[Link](url) and ![Image](src)
-```
+## Education
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Arizona State University - Ira A. Fulton Schools of Engineering**  
+Bachelor of Science, Computer Science | Barrett the Honors College  
+GPA: 3.75 | Tempe, AZ | 2021 - 2025
 
-### Roadmap
+## Skills
 
-See the [open issues](https://github.com/evanca/machine-learning_optimizing-app-offers-with-starbucks/issues) for a list of proposed features (and known issues).
-___
+**Programming Languages:** Python (advanced ML and systems), C++, Java, Assembly
 
-### References
+**Machine Learning:** PyTorch, TensorFlow, Scikit-Learn, Keras, Hugging Face Transformers, Knowledge Distillation, Quantization-Aware Training, LoRA/QLoRA fine-tuning, RLHF (DPO/PPO), Synthetic SFT pipelines
 
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+**Systems & Deployment:** Microservice & cloud-native architectures (Supabase, AWS Lambda, Vercel), Edge AI deployment on Raspberry Pi & Jetson, LoRa-based multi-node communication systems
+
+## Contact
+
+- **Email:** baazjhaj@gmail.com
+- **LinkedIn:** [linkedin.com/in/baaz-jhaj](https://linkedin.com/in/baaz-jhaj)
+- **GitHub:** [github.com/bjhaj](https://github.com/bjhaj)
+- **Phone:** +1 (503) 847-4450
+
+## Website Features
+
+This website is built using Jekyll and GitHub Pages, featuring:
+
+- **Responsive Design** - Optimized for all devices
+- **Project Showcases** - Detailed pages for each major project
+- **Professional Layout** - Clean, modern design
+- **Easy Navigation** - Intuitive user experience
+- **Fast Loading** - Optimized for performance
+
+## Local Development
+
+To run this website locally:
+
+1. Install Jekyll: `gem install jekyll bundler`
+2. Install dependencies: `bundle install`
+3. Run the server: `bundle exec jekyll serve`
+4. Visit `http://localhost:4000`
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+*Built with ❤️ using Jekyll and GitHub Pages*

@@ -1,35 +1,41 @@
-## Portfolio
-
+---
+layout: creative
+title: Baaz Jhaj - Creative Technologist
 ---
 
-### Category Name 1 
+<!-- Hero Section -->
+<section class="hero-dark">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-name-massive">BAAZ JHAJ</h1>
+    </div>
+  </div>
+</section>
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<!-- Philosophy Section -->
+<section class="philosophy-section">
+  <div class="container">
+    <div class="philosophy-content">
+      <p class="philosophy-text">
+        I design systems that reveal what is true. About the world, and about ourselves.
+      </p>
+      <p class="philosophy-text">
+        Some run on solar-powered cameras in the desert, some let us shape the biases in our machines instead of hiding them, and some carry voices across languages without losing who we are.
+      </p>
+      <p class="philosophy-text">
+        All are built to help people understand, decide, and act with clarity.
+      </p>
+    </div>
+  </div>
+</section>
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<!-- Footer -->
+<footer class="footer-dark">
+  <div class="container">
+    <div class="footer-links-minimal">
+      <a href="https://github.com/bjhaj" class="footer-link-dark">GitHub</a>
+      <a href="https://www.linkedin.com/in/baaz-jhaj/" class="footer-link-dark">LinkedIn</a>
+      <a href="mailto:baazjhaj@gmail.com" class="footer-link-dark">Email</a>
+    </div>
+  </div>
+</footer>

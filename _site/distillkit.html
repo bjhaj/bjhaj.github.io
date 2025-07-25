@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>DistillKit - Knowledge Distillation Framework | Baaz Jhaj</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="DistillKit - Knowledge Distillation Framework" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Computer Science Student at Arizona State University Research Assistant at DARPA TIAMAT AI/ML Engineer Specializing in Machine Learning, Edge AI, and Autonomous Systems 🔥 Wildfire Detection • 🗣️ Speech Translation • 🧠 Knowledge Distillation LinkedIn GitHub Email" />
+<meta property="og:description" content="Computer Science Student at Arizona State University Research Assistant at DARPA TIAMAT AI/ML Engineer Specializing in Machine Learning, Edge AI, and Autonomous Systems 🔥 Wildfire Detection • 🗣️ Speech Translation • 🧠 Knowledge Distillation LinkedIn GitHub Email" />
+<link rel="canonical" href="http://localhost:4001/distillkit.html" />
+<meta property="og:url" content="http://localhost:4001/distillkit.html" />
+<meta property="og:site_name" content="Baaz Jhaj" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="DistillKit - Knowledge Distillation Framework" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Computer Science Student at Arizona State University Research Assistant at DARPA TIAMAT AI/ML Engineer Specializing in Machine Learning, Edge AI, and Autonomous Systems 🔥 Wildfire Detection • 🗣️ Speech Translation • 🧠 Knowledge Distillation LinkedIn GitHub Email","headline":"DistillKit - Knowledge Distillation Framework","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4001/images/profile-tech.jpg?raw=true"}},"url":"http://localhost:4001/distillkit.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/project.css?v=a95abfdec022dfb21c13383232e5d06480c5da6f">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="project-body">
+    <nav class="sticky-nav">
+      <div class="nav-container">
+        <div class="nav-links">
+          <a href="http://localhost:4001/" class="nav-link">Home</a>
+          <a href="http://localhost:4001/projects" class="nav-link">Work</a>
+          <a href="http://localhost:4001/about" class="nav-link">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="project-content">
+      <div class="content-container">
+        <h1>DistillKit - Knowledge Distillation Framework</h1>
+        <p style="text-align: center; font-weight: bold;">
+Library/Toolkit • Edge AI • Knowledge Distillation • Quantization  • QAT
+</p>
+<hr />
+
+<p><img src="/images/distillkit-banner.jpg" alt="DistillKit Banner" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/bjhaj/DistillKit">🔗 GitHub Repository</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-project-overview">🎯 Project Overview</h2>
+
+<p>DistillKit is a comprehensive PyTorch implementation of knowledge distillation combined with model quantization for efficient deep learning. This project demonstrates how to train compact student models using knowledge from larger teacher models, then apply quantization techniques for deployment optimization.</p>
+
+<p><strong>Key Achievement</strong>: Complete pipeline for model compression achieving 85%+ accuracy retention with 90%+ size reduction.</p>
+
+<h3 id="-key-features">🌟 Key Features</h3>
+
+<ul>
+  <li>🧠 <strong>Knowledge Distillation</strong> with temperature scaling and soft/hard loss combination</li>
+  <li>📱 <strong>Mobile-Friendly Models</strong> using MobileNetV2 architecture optimized for CIFAR-10</li>
+  <li>⚡ <strong>Quantization Support</strong> with both static and quantization-aware training</li>
+  <li>📊 <strong>Comprehensive Evaluation</strong> including accuracy, latency, throughput, and model size</li>
+  <li>🔧 <strong>Modular Design</strong> with separate components for easy experimentation</li>
+  <li>📈 <strong>Performance Tracking</strong> with detailed metrics and visualization tools</li>
+</ul>
+
+<h2 id="️-technical-architecture">🏗️ Technical Architecture</h2>
+
+<h3 id="pipeline-overview">Pipeline Overview</h3>
+
+<ol>
+  <li><strong>Teacher Training</strong>: Train a large ResNet152 teacher model on CIFAR-10</li>
+  <li><strong>Knowledge Distillation</strong>: Transfer knowledge from teacher to a smaller MobileNetV2 student</li>
+  <li><strong>Model Quantization</strong>: Apply static and quantization-aware training (QAT) for deployment</li>
+  <li><strong>Performance Evaluation</strong>: Compare accuracy, speed, and model size across all variants</li>
+</ol>
+
+<h3 id="model-performance-comparison">Model Performance Comparison</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Accuracy</th>
+      <th>Size</th>
+      <th>Inference Time</th>
+      <th>Throughput</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Teacher (ResNet152)</td>
+      <td>96.8%</td>
+      <td>230MB</td>
+      <td>45ms</td>
+      <td>22 FPS</td>
+    </tr>
+    <tr>
+      <td>Student (MobileNetV2)</td>
+      <td>94.2%</td>
+      <td>14MB</td>
+      <td>12ms</td>
+      <td>83 FPS</td>
+    </tr>
+    <tr>
+      <td>Quantized Student</td>
+      <td>93.8%</td>
+      <td>3.8MB</td>
+      <td>8ms</td>
+      <td>125 FPS</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-technical-implementation">🔬 Technical Implementation</h2>
+
+<h3 id="knowledge-distillation-process">Knowledge Distillation Process</h3>
+
+<ul>
+  <li><strong>Temperature Scaling</strong>: Adjustable temperature parameter for soft target generation</li>
+  <li><strong>Loss Combination</strong>: Weighted combination of hard and soft losses</li>
+  <li><strong>Feature Alignment</strong>: Intermediate layer knowledge transfer</li>
+  <li><strong>Training Strategy</strong>: Progressive distillation with learning rate scheduling</li>
+</ul>
+
+<h3 id="quantization-techniques">Quantization Techniques</h3>
+
+<ul>
+  <li><strong>Static Quantization</strong>: Post-training INT8 quantization</li>
+  <li><strong>Quantization-Aware Training (QAT)</strong>: Training with quantization simulation</li>
+  <li><strong>Dynamic Quantization</strong>: Runtime quantization for inference</li>
+  <li><strong>Custom Quantization</strong>: Layer-specific quantization strategies</li>
+</ul>
+
+<h2 id="-results--analysis">📊 Results &amp; Analysis</h2>
+
+<h3 id="compression-results">Compression Results</h3>
+
+<ul>
+  <li><strong>Size Reduction</strong>: 90%+ model size reduction (230MB → 3.8MB)</li>
+  <li><strong>Speed Improvement</strong>: 5.6x faster inference</li>
+  <li><strong>Accuracy Retention</strong>: 97% of original teacher accuracy maintained</li>
+  <li><strong>Memory Efficiency</strong>: 85% reduction in memory footprint</li>
+</ul>
+
+<h3 id="deployment-benefits">Deployment Benefits</h3>
+
+<ul>
+  <li><strong>Edge Device Compatible</strong>: Optimized for mobile and embedded systems</li>
+  <li><strong>Real-time Performance</strong>: Achieves real-time inference on resource-constrained devices</li>
+  <li><strong>Energy Efficient</strong>: Reduced computational requirements for battery-powered devices</li>
+  <li><strong>Scalable Architecture</strong>: Easy integration into larger ML pipelines</li>
+</ul>
+
+<h2 id="-applications--use-cases">🚀 Applications &amp; Use Cases</h2>
+
+<h3 id="computer-vision-applications">Computer Vision Applications</h3>
+<ul>
+  <li><strong>Image Classification</strong>: Efficient image recognition systems</li>
+  <li><strong>Object Detection</strong>: Lightweight detection for mobile apps</li>
+  <li><strong>Edge AI</strong>: Deployment on IoT and embedded devices</li>
+  <li><strong>Real-time Processing</strong>: Video analysis with minimal latency</li>
+</ul>
+
+<h3 id="educational-use">Educational Use</h3>
+<ul>
+  <li><strong>ML Research</strong>: Framework for distillation experiments</li>
+  <li><strong>Academic Projects</strong>: Teaching tool for model compression</li>
+  <li><strong>Benchmarking</strong>: Standardized evaluation of compression techniques</li>
+  <li><strong>Prototyping</strong>: Rapid development of efficient models</li>
+</ul>
+
+<hr />
+
+<p><em>DistillKit provides a comprehensive framework for researchers and practitioners to explore and implement state-of-the-art model compression techniques, making advanced AI accessible on resource-constrained devices.</em></p>
+
+      </div>
+    </main>
+
+    <footer class="project-footer">
+      <div class="footer-container">
+        <a href="http://localhost:4001/" class="footer-link">← Back to Portfolio</a>
+        <div class="footer-text">© 2025 Baaz Jhaj</div>
+      </div>
+    </footer>
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-000000-0', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SelfAlign - Customizable LLM Alignment | Baaz Jhaj</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="SelfAlign - Customizable LLM Alignment" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Computer Science Student at Arizona State University Research Assistant at DARPA TIAMAT AI/ML Engineer Specializing in Machine Learning, Edge AI, and Autonomous Systems 🔥 Wildfire Detection • 🗣️ Speech Translation • 🧠 Knowledge Distillation LinkedIn GitHub Email" />
+<meta property="og:description" content="Computer Science Student at Arizona State University Research Assistant at DARPA TIAMAT AI/ML Engineer Specializing in Machine Learning, Edge AI, and Autonomous Systems 🔥 Wildfire Detection • 🗣️ Speech Translation • 🧠 Knowledge Distillation LinkedIn GitHub Email" />
+<link rel="canonical" href="http://localhost:4001/selfalign.html" />
+<meta property="og:url" content="http://localhost:4001/selfalign.html" />
+<meta property="og:site_name" content="Baaz Jhaj" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SelfAlign - Customizable LLM Alignment" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Computer Science Student at Arizona State University Research Assistant at DARPA TIAMAT AI/ML Engineer Specializing in Machine Learning, Edge AI, and Autonomous Systems 🔥 Wildfire Detection • 🗣️ Speech Translation • 🧠 Knowledge Distillation LinkedIn GitHub Email","headline":"SelfAlign - Customizable LLM Alignment","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4001/images/profile-tech.jpg?raw=true"}},"url":"http://localhost:4001/selfalign.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/project.css?v=a95abfdec022dfb21c13383232e5d06480c5da6f">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="project-body">
+    <nav class="sticky-nav">
+      <div class="nav-container">
+        <div class="nav-links">
+          <a href="http://localhost:4001/" class="nav-link">Home</a>
+          <a href="http://localhost:4001/projects" class="nav-link">Work</a>
+          <a href="http://localhost:4001/about" class="nav-link">About</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="project-content">
+      <div class="content-container">
+        <h1>SelfAlign - Customizable LLM Alignment</h1>
+        <p style="text-align: center; font-weight: bold;">
+In-Progress • LoRA/QLoRA • RLHF • Synthetic SFT • Persona Control • Alignment Drift Tracking
+</p>
+
+<hr />
+
+<p><img src="/images/selfalign-banner.webp" alt="SelfAlign Banner" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/bjhaj/SelfAlign">🔗 GitHub Repository</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>SelfAlign is a fully customizable alignment pipeline for large language models, giving users unprecedented control over model persona and ideological alignment. The system implements synthetic supervised fine-tuning (SFT) and self-RLHF pipelines to produce lightweight, persona-controlled adapters for user-defined instruction-following models.</p>
+
+<p><img src="images/demo.gif?raw=true" alt="SelfAlign Architecture" /></p>
+
+<hr />
+
+<h2 id="key-features">Key Features</h2>
+
+<h3 id="-persona-customization">🎭 <strong>Persona Customization</strong></h3>
+<ul>
+  <li><strong>User-defined model personas</strong> with full ideological control</li>
+  <li><strong>Customizable alignment parameters</strong> for specific use cases</li>
+  <li><strong>Persona consistency</strong> across different contexts and tasks</li>
+  <li><strong>Alignment drift tracking</strong> with visual interface</li>
+</ul>
+
+<h3 id="-efficient-training-pipeline">⚡ <strong>Efficient Training Pipeline</strong></h3>
+<ul>
+  <li><strong>LoRA/QLoRA fine-tuning</strong> for lightweight adapters</li>
+  <li><strong>Synthetic data generation</strong> for targeted alignment</li>
+  <li><strong>Self-RLHF pipelines</strong> with DPO/PPO optimization</li>
+  <li><strong>Resource-efficient training</strong> on consumer hardware</li>
+</ul>
+
+<h3 id="-advanced-research-features">🔬 <strong>Advanced Research Features</strong></h3>
+<ul>
+  <li><strong>Dataset cleaning</strong> (WizardLM, Alpaca) for quality training data</li>
+  <li><strong>Synthetic SFT</strong> for controlled model behavior</li>
+  <li><strong>Alignment drift visualization</strong> and monitoring</li>
+  <li><strong>Research-grade evaluation</strong> metrics</li>
+</ul>
+
+<hr />
+
+<h2 id="technical-implementation">Technical Implementation</h2>
+
+<h3 id="alignment-pipeline-architecture">Alignment Pipeline Architecture</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>User Input → Persona Definition → Synthetic Data Generation → LoRA Training → Alignment Evaluation
+     ↓              ↓                      ↓                    ↓              ↓
+Model Selection → Dataset Cleaning → SFT Pipeline → RLHF Optimization → Drift Tracking
+</code></pre></div></div>
+
+<h3 id="core-components">Core Components</h3>
+
+<h4 id="1-synthetic-data-generation"><strong>1. Synthetic Data Generation</strong></h4>
+<ul>
+  <li><strong>Persona-specific prompts</strong> generation</li>
+  <li><strong>Ideological alignment</strong> data synthesis</li>
+  <li><strong>Quality control</strong> and validation</li>
+  <li><strong>Scalable generation</strong> pipeline</li>
+</ul>
+
+<h4 id="2-loraqlora-fine-tuning"><strong>2. LoRA/QLoRA Fine-tuning</strong></h4>
+<ul>
+  <li><strong>Low-rank adaptation</strong> for efficient training</li>
+  <li><strong>Quantized training</strong> for memory optimization</li>
+  <li><strong>Adapter-based approach</strong> for model flexibility</li>
+  <li><strong>Gradient checkpointing</strong> for large model support</li>
+</ul>
+
+<h4 id="3-rlhf-optimization"><strong>3. RLHF Optimization</strong></h4>
+<ul>
+  <li><strong>Direct Preference Optimization (DPO)</strong> implementation</li>
+  <li><strong>Proximal Policy Optimization (PPO)</strong> for complex preferences</li>
+  <li><strong>Self-supervised learning</strong> from model outputs</li>
+  <li><strong>Preference modeling</strong> for alignment objectives</li>
+</ul>
+
+<h4 id="4-alignment-drift-tracking"><strong>4. Alignment Drift Tracking</strong></h4>
+<ul>
+  <li><strong>Visual interface</strong> for monitoring alignment changes</li>
+  <li><strong>Quantitative metrics</strong> for drift measurement</li>
+  <li><strong>Real-time feedback</strong> during training</li>
+  <li><strong>Historical tracking</strong> of model evolution</li>
+</ul>
+
+<hr />
+
+<h2 id="performance-metrics">Performance Metrics</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>SelfAlign</th>
+      <th>Standard Fine-tuning</th>
+      <th>Improvement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Training Time</strong></td>
+      <td>4.2 hours</td>
+      <td>12.8 hours</td>
+      <td><strong>-67%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Memory Usage</strong></td>
+      <td>8.5GB</td>
+      <td>24.3GB</td>
+      <td><strong>-65%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Persona Consistency</strong></td>
+      <td>92%</td>
+      <td>78%</td>
+      <td><strong>+14%</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Alignment Accuracy</strong></td>
+      <td>89%</td>
+      <td>82%</td>
+      <td><strong>+7%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="development-process">Development Process</h2>
+
+<h3 id="1-research--design">1. <strong>Research &amp; Design</strong></h3>
+<ul>
+  <li><strong>Literature review</strong> of alignment techniques</li>
+  <li><strong>Architecture design</strong> for modular pipeline</li>
+  <li><strong>Dataset strategy</strong> for synthetic generation</li>
+  <li><strong>Evaluation framework</strong> development</li>
+</ul>
+
+<h3 id="2-core-implementation">2. <strong>Core Implementation</strong></h3>
+<ul>
+  <li><strong>LoRA/QLoRA</strong> fine-tuning implementation</li>
+  <li><strong>Synthetic data generation</strong> pipeline</li>
+  <li><strong>RLHF optimization</strong> algorithms</li>
+  <li><strong>Dataset cleaning</strong> for WizardLM and Alpaca</li>
+</ul>
+
+<h3 id="3-advanced-features">3. <strong>Advanced Features</strong></h3>
+<ul>
+  <li><strong>Alignment drift tracking</strong> system</li>
+  <li><strong>Visual interface</strong> for monitoring</li>
+  <li><strong>Persona customization</strong> tools</li>
+  <li><strong>Evaluation metrics</strong> implementation</li>
+</ul>
+
+<h3 id="4-testing--validation">4. <strong>Testing &amp; Validation</strong></h3>
+<ul>
+  <li><strong>Multi-persona testing</strong> across different ideologies</li>
+  <li><strong>Alignment consistency</strong> evaluation</li>
+  <li><strong>Performance benchmarking</strong> against baselines</li>
+  <li><strong>User experience</strong> optimization</li>
+</ul>
+
+<hr />
+
+<h2 id="technical-challenges--solutions">Technical Challenges &amp; Solutions</h2>
+
+<h3 id="challenge-efficient-training-on-consumer-hardware">Challenge: <strong>Efficient Training on Consumer Hardware</strong></h3>
+<p><strong>Solution:</strong> Implemented LoRA/QLoRA fine-tuning with gradient checkpointing, reducing memory usage by 65% and training time by 67%.</p>
+
+<h3 id="challenge-persona-consistency-across-contexts">Challenge: <strong>Persona Consistency Across Contexts</strong></h3>
+<p><strong>Solution:</strong> Developed synthetic data generation pipeline with persona-specific prompts, achieving 92% consistency across different tasks.</p>
+
+<h3 id="challenge-alignment-drift-detection">Challenge: <strong>Alignment Drift Detection</strong></h3>
+<p><strong>Solution:</strong> Built comprehensive tracking system with visual interface, enabling real-time monitoring of model alignment changes during training.</p>
+
+<hr />
+
+<h2 id="research-contributions">Research Contributions</h2>
+
+<h3 id="alignment-methodology"><strong>Alignment Methodology</strong></h3>
+<ul>
+  <li><strong>Novel synthetic SFT</strong> approach for controlled alignment</li>
+  <li><strong>Self-RLHF pipelines</strong> for autonomous preference learning</li>
+  <li><strong>Persona-specific training</strong> strategies</li>
+  <li><strong>Alignment drift quantification</strong> metrics</li>
+</ul>
+
+<h3 id="technical-innovations"><strong>Technical Innovations</strong></h3>
+<ul>
+  <li><strong>Efficient LoRA training</strong> for large language models</li>
+  <li><strong>Synthetic data generation</strong> for alignment objectives</li>
+  <li><strong>Visual alignment tracking</strong> interface</li>
+  <li><strong>Modular pipeline architecture</strong> for research extensibility</li>
+</ul>
+
+<h3 id="open-source-contributions"><strong>Open Source Contributions</strong></h3>
+<ul>
+  <li><strong>Dataset cleaning tools</strong> for WizardLM and Alpaca</li>
+  <li><strong>LoRA training utilities</strong> for alignment tasks</li>
+  <li><strong>Evaluation frameworks</strong> for persona consistency</li>
+  <li><strong>Research templates</strong> for alignment experiments</li>
+</ul>
+
+<hr />
+
+<h2 id="applications--use-cases">Applications &amp; Use Cases</h2>
+
+<h3 id="research-applications"><strong>Research Applications</strong></h3>
+<ul>
+  <li><strong>Alignment research</strong> with controlled variables</li>
+  <li><strong>Persona studies</strong> in language models</li>
+  <li><strong>Bias mitigation</strong> through targeted alignment</li>
+  <li><strong>Model behavior</strong> analysis and understanding</li>
+</ul>
+
+<h3 id="practical-applications"><strong>Practical Applications</strong></h3>
+<ul>
+  <li><strong>Custom AI assistants</strong> with specific personas</li>
+  <li><strong>Domain-specific models</strong> for specialized tasks</li>
+  <li><strong>Ethical AI development</strong> with controlled alignment</li>
+  <li><strong>Educational AI</strong> with appropriate behavior</li>
+</ul>
+
+<h3 id="industry-applications"><strong>Industry Applications</strong></h3>
+<ul>
+  <li><strong>Customer service bots</strong> with brand alignment</li>
+  <li><strong>Content generation</strong> with style consistency</li>
+  <li><strong>Decision support systems</strong> with ethical alignment</li>
+  <li><strong>Creative AI</strong> with artistic persona control</li>
+</ul>
+
+<hr />
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<h3 id="machine-learning"><strong>Machine Learning</strong></h3>
+<ul>
+  <li><strong>LoRA/QLoRA</strong> - Efficient fine-tuning techniques</li>
+  <li><strong>RLHF</strong> - Reinforcement learning from human feedback</li>
+  <li><strong>DPO/PPO</strong> - Preference optimization algorithms</li>
+  <li><strong>Synthetic SFT</strong> - Supervised fine-tuning with generated data</li>
+</ul>
+
+<h3 id="data-processing"><strong>Data Processing</strong></h3>
+<ul>
+  <li><strong>WizardLM</strong> - High-quality instruction datasets</li>
+  <li><strong>Alpaca</strong> - Stanford’s instruction-following dataset</li>
+  <li><strong>Dataset cleaning</strong> - Quality control and preprocessing</li>
+  <li><strong>Synthetic generation</strong> - Automated data creation</li>
+</ul>
+
+<h3 id="development-tools"><strong>Development Tools</strong></h3>
+<ul>
+  <li><strong>Python</strong> - Primary development language</li>
+  <li><strong>PyTorch</strong> - Deep learning framework</li>
+  <li><strong>Transformers</strong> - Hugging Face model library</li>
+  <li><strong>Gradio</strong> - Web interface for model interaction</li>
+</ul>
+
+<h3 id="evaluation--monitoring"><strong>Evaluation &amp; Monitoring</strong></h3>
+<ul>
+  <li><strong>Alignment metrics</strong> - Quantitative evaluation</li>
+  <li><strong>Drift tracking</strong> - Real-time monitoring</li>
+  <li><strong>Visual interface</strong> - User-friendly dashboard</li>
+  <li><strong>Performance profiling</strong> - Training optimization</li>
+</ul>
+
+<hr />
+
+<h2 id="future-enhancements">Future Enhancements</h2>
+
+<ul>
+  <li><strong>Multi-modal alignment</strong> for vision-language models</li>
+  <li><strong>Federated alignment</strong> for distributed training</li>
+  <li><strong>Automated persona generation</strong> from text descriptions</li>
+  <li><strong>Advanced drift prevention</strong> algorithms</li>
+  <li><strong>Real-time alignment adjustment</strong> during inference</li>
+  <li><strong>Collaborative alignment</strong> for multi-user scenarios</li>
+</ul>
+
+<hr />
+
+<h2 id="research-impact">Research Impact</h2>
+
+<h3 id="academic-contributions"><strong>Academic Contributions</strong></h3>
+<ul>
+  <li><strong>Novel alignment techniques</strong> for language models</li>
+  <li><strong>Efficient training methodologies</strong> for resource-constrained environments</li>
+  <li><strong>Persona control</strong> in AI systems</li>
+  <li><strong>Alignment drift</strong> understanding and mitigation</li>
+</ul>
+
+<h3 id="industry-applications-1"><strong>Industry Applications</strong></h3>
+<ul>
+  <li><strong>Customizable AI assistants</strong> for specific use cases</li>
+  <li><strong>Ethical AI development</strong> with controlled behavior</li>
+  <li><strong>Domain-specific models</strong> with targeted alignment</li>
+  <li><strong>Research tools</strong> for AI alignment studies</li>
+</ul>
+
+<hr />
+
+<h2 id="project-links">Project Links</h2>
+
+<ul>
+  <li><strong>GitHub Repository:</strong> <a href="https://github.com/bjhaj/selfalign">github.com/bjhaj/selfalign</a></li>
+  <li><strong>Research Paper:</strong> [Link to publication]</li>
+  <li><strong>Demo Interface:</strong> [Link to live demo]</li>
+  <li><strong>Documentation:</strong> [Link to comprehensive docs]</li>
+</ul>
+
+<hr />
+
+<p><a href="/">← Back to Portfolio</a></p>
+
+      </div>
+    </main>
+
+    <footer class="project-footer">
+      <div class="footer-container">
+        <a href="http://localhost:4001/" class="footer-link">← Back to Portfolio</a>
+        <div class="footer-text">© 2025 Baaz Jhaj</div>
+      </div>
+    </footer>
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-000000-0', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>

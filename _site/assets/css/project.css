@@ -1,0 +1,326 @@
+/* Project Page Layout CSS - Dark Theme */
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.project-body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  color: #f8f9fa;
+  background: #0a0a0a;
+  padding-top: 60px; /* Account for sticky nav */
+}
+
+/* Navigation */
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(248, 249, 250, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #6366f1;
+}
+
+.nav-link.active {
+  color: #6366f1;
+}
+
+body.project-body {
+  padding-top: 60px; /* Account for sticky nav */
+}
+
+/* Main Content */
+.project-content {
+  min-height: calc(100vh - 200px);
+  padding: 40px 0;
+}
+
+.content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+.content-container h1 {
+  font-size: 2.8em;
+  margin-bottom: 30px;
+  color: #f8f9fa;
+  text-align: center;
+  border-bottom: 3px solid #6366f1;
+  padding-bottom: 20px;
+}
+
+.content-container h2 {
+  font-size: 2em;
+  margin: 40px 0 20px 0;
+  color: #f8f9fa;
+  border-left: 4px solid #6366f1;
+  padding-left: 20px;
+}
+
+.content-container h3 {
+  font-size: 1.5em;
+  margin: 30px 0 15px 0;
+  color: #e2e8f0;
+}
+
+.content-container h4 {
+  font-size: 1.2em;
+  margin: 25px 0 10px 0;
+  color: #cbd5e1;
+}
+
+.content-container p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #e2e8f0;
+}
+
+.content-container ul, .content-container ol {
+  margin: 20px 0;
+  padding-left: 30px;
+}
+
+.content-container li {
+  margin-bottom: 10px;
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+/* Links */
+.content-container a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.content-container a:hover {
+  color: #8b5cf6;
+  text-decoration: underline;
+}
+
+/* Images */
+.content-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Tables */
+.content-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  background: #1e293b;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-container th,
+.content-container td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(248, 249, 250, 0.1);
+  color: #e2e8f0;
+}
+
+.content-container th {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: #f8f9fa;
+  font-weight: 600;
+}
+
+.content-container tr:hover {
+  background: rgba(248, 249, 250, 0.05);
+}
+
+/* Code blocks */
+.content-container pre {
+  background: #1e293b;
+  border: 1px solid rgba(248, 249, 250, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  overflow-x: auto;
+  margin: 20px 0;
+  color: #e2e8f0;
+}
+
+.content-container code {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9em;
+}
+
+/* Blockquotes */
+.content-container blockquote {
+  border-left: 4px solid #6366f1;
+  padding-left: 20px;
+  margin: 30px 0;
+  font-style: italic;
+  color: #cbd5e1;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Footer */
+.project-footer {
+  background: #1e293b;
+  padding: 30px 0;
+  border-top: 1px solid rgba(248, 249, 250, 0.1);
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-link {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background: rgba(99, 102, 241, 0.2);
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.footer-link:hover {
+  background: rgba(99, 102, 241, 0.3);
+  color: #8b5cf6;
+  transform: translateY(-2px);
+}
+
+.footer-text {
+  color: #cbd5e1;
+  font-size: 0.9em;
+}
+
+/* Tags and Badges */
+.project-tag, .tag {
+  display: inline-block !important;
+  background: #ea580c !important; /* Orange accent */
+  color: #fff !important;
+  padding: 0.25rem 0.75rem !important;
+  margin: 0.25rem 0.25rem 0 0 !important;
+  border-radius: 20px !important;
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.01em !important;
+  transition: all 0.2s ease !important;
+}
+
+.project-tag:hover, .tag:hover {
+  background: #dc2626 !important; /* Darker orange on hover */
+  transform: translateY(-1px) !important;
+}
+
+/* Override inline styles for tags */
+span[style*="background: #f0f0f0"] {
+  background: #ea580c !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .nav-title {
+    order: -1;
+    margin-bottom: 10px;
+  }
+  
+  .content-container {
+    padding: 0 15px;
+  }
+  
+  .content-container h1 {
+    font-size: 2.2em;
+  }
+  
+  .content-container h2 {
+    font-size: 1.6em;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-nav {
+    padding: 15px 0;
+  }
+  
+  .project-content {
+    padding: 20px 0;
+  }
+  
+  .content-container h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

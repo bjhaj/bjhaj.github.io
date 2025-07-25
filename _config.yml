@@ -1,11 +1,17 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+title: Baaz Jhaj
+logo: "/images/profile-tech.jpg?raw=true"
+description: > 
+  Computer Science Student at Arizona State University
   <br><br>
-  Second description 
+  Research Assistant at DARPA TIAMAT | AI/ML Engineer
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  Specializing in Machine Learning, Edge AI, and Autonomous Systems
+  <br>
+  🔥 Wildfire Detection • 🗣️ Speech Translation • 🧠 Knowledge Distillation
+  <br><br>
+  <a href="https://www.linkedin.com/in/baaz-jhaj/">LinkedIn</a> | 
+  <a href="https://github.com/bjhaj">GitHub</a> | 
+  <a href="mailto:baazjhaj@gmail.com">Email</a>
   
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+google_analytics: UA-000000-0
